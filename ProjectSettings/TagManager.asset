@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Bed
+  - PlayerTouch
+  - ButtonPrompt
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 1715675947
+    locked: 0
+  - name: Detail
+    uniqueID: 89208563
+    locked: 0
+  - name: Door
+    uniqueID: 1020310513
+    locked: 0
+  - name: Interactable
+    uniqueID: 163391995
+    locked: 0
+  - name: Player
+    uniqueID: 1156951527
+    locked: 0
+  - name: OverPlayer
+    uniqueID: 453500927
+    locked: 0
