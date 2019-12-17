@@ -23,7 +23,7 @@ public class Interactable : MonoBehaviour
         gameController = FindObjectOfType<GameController>();
         mg = gameObject.GetComponent<Minigame>();
         annoyingSound = gameObject.GetComponent<AudioSource>();
-        particles = gameObject.GetComponent<ParticleSystem>();
+        //particles = gameObject.GetComponent<ParticleSystem>();
 
 
     }
@@ -75,7 +75,7 @@ public class Interactable : MonoBehaviour
     {
         gameController.distractions--;
         annoyingSound.Stop();
-        particles.Stop();
+        particles.Stop(true, ParticleSystemStopBehavior.StopEmittingAndClear);
         isUsed = false;
         //Debug.Log("This has been turned off");
 
