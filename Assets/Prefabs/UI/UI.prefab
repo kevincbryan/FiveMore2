@@ -209,7 +209,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7131984722719519773}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 315.98157, y: 170.24323, z: -7.1001816}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7086284101045048133}
@@ -550,11 +550,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7086284101045048133}
     m_Modifications:
-    - target: {fileID: 6932796958535859713, guid: f803db7b22c08b9449a53aab10cbbf6e,
-        type: 3}
-      propertyPath: m_Name
-      value: DisruptionText
-      objectReference: {fileID: 0}
     - target: {fileID: 563437963398553850, guid: f803db7b22c08b9449a53aab10cbbf6e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -609,6 +604,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6932796958535859713, guid: f803db7b22c08b9449a53aab10cbbf6e,
+        type: 3}
+      propertyPath: m_Name
+      value: DisruptionText
       objectReference: {fileID: 0}
     - target: {fileID: 6873165545900594077, guid: f803db7b22c08b9449a53aab10cbbf6e,
         type: 3}
@@ -680,11 +680,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7086284101045048133}
     m_Modifications:
-    - target: {fileID: 7352569062537886086, guid: ed972ae899082df428955b40783beba8,
-        type: 3}
-      propertyPath: m_Name
-      value: TimeText
-      objectReference: {fileID: 0}
     - target: {fileID: 7659973045239258880, guid: ed972ae899082df428955b40783beba8,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -740,6 +735,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7352569062537886086, guid: ed972ae899082df428955b40783beba8,
+        type: 3}
+      propertyPath: m_Name
+      value: TimeText
+      objectReference: {fileID: 0}
     - target: {fileID: 4244477308867648571, guid: ed972ae899082df428955b40783beba8,
         type: 3}
       propertyPath: m_havePropertiesChanged
@@ -765,11 +765,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7086284101045048133}
     m_Modifications:
-    - target: {fileID: 928334180515874785, guid: ec17c95c0dd9d354897aff18c90f6de0,
-        type: 3}
-      propertyPath: m_Name
-      value: SleepMeter
-      objectReference: {fileID: 0}
     - target: {fileID: 3550269679714974526, guid: ec17c95c0dd9d354897aff18c90f6de0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -824,6 +819,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 928334180515874785, guid: ec17c95c0dd9d354897aff18c90f6de0,
+        type: 3}
+      propertyPath: m_Name
+      value: SleepMeter
       objectReference: {fileID: 0}
     - target: {fileID: 1623800839147249167, guid: ec17c95c0dd9d354897aff18c90f6de0,
         type: 3}
