@@ -10,6 +10,7 @@ public class Interactable : MonoBehaviour
     public TimedDistraction timer;
     public AudioSource annoyingSound;
     public Minigame mg;
+    public ParticleSystem particles;
     public static bool promptSolved = false;
     bool imPrompting = false;
    // public GameObject spriteToEnable;
@@ -21,6 +22,8 @@ public class Interactable : MonoBehaviour
     {
         gameController = FindObjectOfType<GameController>();
         mg = gameObject.GetComponent<Minigame>();
+        annoyingSound = gameObject.GetComponent<AudioSource>();
+        particles = gameObject.GetComponent<ParticleSystem>();
 
 
     }
@@ -45,7 +48,8 @@ public class Interactable : MonoBehaviour
 
         //mg.Prompt();
         
-        //annoyingSound.Play();
+        annoyingSound.Play();
+        particles.Play();
     }
 
     private void OnDisable()
@@ -70,7 +74,8 @@ public class Interactable : MonoBehaviour
     private void TurnOff()
     {
         gameController.distractions--;
-        //annoyingSound.Stop();
+        annoyingSound.Stop();
+        particles.Stop();
         isUsed = false;
         //Debug.Log("This has been turned off");
 
