@@ -8,6 +8,7 @@ public class timeClock : MonoBehaviour
     int hours = 12;
     int min = 0;
     float sec;
+    public float seconds;
     public Text display;
     string time = "";
 
@@ -22,6 +23,7 @@ public class timeClock : MonoBehaviour
     {
         time = $"{hours}:0{min} AM";
         sec += Time.deltaTime;
+        seconds += Time.deltaTime;
         if (sec >= 1.0f)
         {
             min++;
@@ -42,5 +44,6 @@ public class timeClock : MonoBehaviour
         }
         display.text = time;
         //Debug.Log(display.text);
+        Debug.Log (seconds);
     }
 }
