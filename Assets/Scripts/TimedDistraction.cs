@@ -11,10 +11,12 @@ public class TimedDistraction : MonoBehaviour
     public float maxTime;
     private float time;
     private GameController gc;
+    
 
     private float timeUntilFire = 0f;
     private bool runOnce = false;
-
+    private bool reRun = false;
+    public float reRunTime= 30f;
 
     // Start is called before the first frame update
     void Start()
@@ -29,6 +31,31 @@ public class TimedDistraction : MonoBehaviour
         if (isRandom == true)
         {
             time = Random.Range(minTime, maxTime);
+        }
+
+        if(reRun == true)
+        {
+            time = reRunTime;
+        }
+    }
+
+    private void Awake()
+    {
+        gc = FindObjectOfType<GameController>();
+        time = maxTime;
+        if (minTime < 0)
+        {
+            minTime = 0;
+        }
+
+        if (isRandom == true)
+        {
+            time = Random.Range(minTime, maxTime);
+        }
+
+        if (reRun == true)
+        {
+            time = reRunTime;
         }
     }
 
@@ -59,6 +86,7 @@ public class TimedDistraction : MonoBehaviour
         {
             timeUntilFire = 0;
             runOnce = false;
+            reRun = true;
             time = Random.Range(minTime, maxTime);
 
         }
