@@ -2200,6 +2200,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5767864504358125601, guid: 319c9be7fa6a99144ba929bd6640a274,
+        type: 3}
+      propertyPath: maxTime
+      value: 60
+      objectReference: {fileID: 0}
     - target: {fileID: 7872092902336630450, guid: 319c9be7fa6a99144ba929bd6640a274,
         type: 3}
       propertyPath: m_IsActive
@@ -2599,6 +2604,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5767864504358125601, guid: 319c9be7fa6a99144ba929bd6640a274,
+        type: 3}
+      propertyPath: maxTime
+      value: 60
+      objectReference: {fileID: 0}
     - target: {fileID: 7872092902336630450, guid: 319c9be7fa6a99144ba929bd6640a274,
         type: 3}
       propertyPath: m_IsActive
@@ -2821,7 +2831,7 @@ PrefabInstance:
     - target: {fileID: 5767864504358125606, guid: 319c9be7fa6a99144ba929bd6640a274,
         type: 3}
       propertyPath: m_Name
-      value: TimedInteractable
+      value: NeighborDoor
       objectReference: {fileID: 0}
     - target: {fileID: 5767864504358125600, guid: 319c9be7fa6a99144ba929bd6640a274,
         type: 3}
