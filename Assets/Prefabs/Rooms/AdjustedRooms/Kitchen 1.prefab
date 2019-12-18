@@ -1858,6 +1858,11 @@ PrefabInstance:
       propertyPath: maxTime
       value: 60
       objectReference: {fileID: 0}
+    - target: {fileID: 5767864504358125601, guid: 319c9be7fa6a99144ba929bd6640a274,
+        type: 3}
+      propertyPath: minTime
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 7872092902336630455, guid: 319c9be7fa6a99144ba929bd6640a274,
         type: 3}
       propertyPath: particles
@@ -2312,7 +2317,12 @@ PrefabInstance:
     - target: {fileID: 5767864504358125601, guid: 319c9be7fa6a99144ba929bd6640a274,
         type: 3}
       propertyPath: maxTime
-      value: 6
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 5767864504358125601, guid: 319c9be7fa6a99144ba929bd6640a274,
+        type: 3}
+      propertyPath: minTime
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 7872092902336630455, guid: 319c9be7fa6a99144ba929bd6640a274,
         type: 3}
